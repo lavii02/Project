@@ -1,0 +1,333 @@
+@charset "utf-8";
+/* CSS Document */
+header{background-image: url(header-bg.jpg); background-attachment: fixed; background-size: cover}
+header li a{color:white; }
+header a{color:white}
+ ul li a{padding-top:5px; padding-bottom:5px}
+.container-fluid{padding:0px}
+header .container{margin:0px auto; width: 90%; height:600px}
+a.navbar-brand{padding:15px 60px;}
+.navbar-default .navbar-brand{color:white}
+.navbar-default .navbar-nav>li>a{color:white}
+a i{font-size:10px; margin-left:5px}
+li a:hover{color:black; border-radius:20px}
+.phone-icon{font-size:12px; margin-right:10px}
+.header-title{margin-top:100px; margin-left:30px}
+.header-title h1{font-size:50px; color:white}
+.header-title h1 b{font-size:60px;}
+.header-text{color:white; font-size:17px; margin-bottom:40px}
+.DiscoverNow{padding: 10px 20px; border: 1px solid white; border-radius: 20px; font-size: 12px; margin-top: 0px; margin-left: 50px; text-decoration: none}
+.WhatWeDo{text-align:center; margin-top:50px}
+.Square{width:80px; height:80px; border:8px solid #ECECEC; border-radius:10px; transform:rotate(20deg); position:absolute; z-index:-1; display: inline-block}
+.HeadingText{font-size:20px; color:orange; margin-left:90px; margin-bottom:0px}
+.Text{margin-top:0px; margin-left:70px; font-weight: bold;}
+.col-md-12.WhatWeDoCard{text-align:center;width:100%; margin:0px; position: relative}
+
+.AboutUsCircle{width:600px; height:600px; border-radius:50%; background-color:rgba(237,245,255,0.3); margin-top:-20px; margin-left:-20px; text-align:center; z-index:-1}
+.AboutUsCircle .Square{margin-top:100px}
+.AboutUsCircle .HeadingText{margin-left:0px; margin-top:80px; margin-right:70px}
+.ReadMore{padding: 10px 20px; border: 1px solid blue; border-radius: 20px; font-size: 12px; margin-top:0px; text-decoration: none; background-color: blue; color:white}
+.OurServices{text-align:center}
+.OurProjects{text-align:center; margin-top:50px}
+.Project{background-color:black; height:300px; width:24%; margin:5px}
+.CompanyStats{height:auto; margin:30px 0px 0px 0px;}
+.StartupReadMore{padding: 10px 20px; border: 1px solid orange; border-radius: 20px; font-size: 12px; margin-top:0px; text-decoration: none; background-color: orange; color:white}
+.HowItWorks{text-align:center; margin-top:50px}
+.WhyChooseUsMore{padding: 10px 20px; border: 1px solid blue; border-radius: 20px; font-size: 12px; margin-top:0px; text-decoration: none; background-color: blue; color:white}
+.OurBlog{text-align:center; margin-top:50px}
+.BlogCard{height:auto; width:30%; margin:10px; text-align:left}
+.BlogReadMore{padding: 10px 20px; border: 1px solid blue; border-radius: 20px; font-size: 12px; margin-top:20px; text-decoration: none; background-color: blue; color:white}
+.DetailsCard{height:auto; width:30%; margin:10px; text-align:left; border-radius:20px; background-color: blue; padding:20px 40px}
+.ContactDet{background-color: darkblue;}
+.EmailDet{background-color: lightblue;}
+.LocationDet{background-color:orange;}
+.OtherDetails{height:auto; width:30%; margin:10px; text-align:left;}
+.links{column-count: 2; list-style: none; text-decoration: none; text-decoration-line: none; padding-left:5px}
+.OtherDetailsContainer{width:80%; margin-top:200px}
+.slider {
+        width: 80%;
+        margin: 100px auto;
+    }
+    .slick-prev:before,
+    .slick-next:before {
+      color: orange;
+    }
+
+.Cards{background-color: #FFF1E6; height:250px; margin-bottom:10px; margin-left:20px; border-radius:5px; z-index:-1; width:22%; float:left}
+.Cards:hover{background-color:#FB1115;}
+.Partner{color:lightgray}
+.Partner:hover{color:black}
+.ClientSayAboutUsCircle{width:500px; height:500px; border-radius:50%; background-color:rgba(237,245,255,0.3); margin-left:-20px; text-align:center; z-index:-1}
+.ClientSayAboutUsCircle .Square{margin-top:100px}
+.ClientSayAboutUsCircle .HeadingText{margin-left:0px; margin-top:80px; margin-right:70px}
+.MainClientCircle{width: 600px; height: 500px; border-radius: 50%;border-right: 2px dashed gray; margin-left:-500px
+    }  
+
+.ImageCircle1{
+    content: '';
+    position: absolute;
+    top: 20%;
+    left: 92%;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 100%;
+    transform: translate(-50%, -50%);
+}
+.ImageCircle3{
+    content: '';
+    position: absolute;
+    top: 20%;
+    left: 92%;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 100%;
+	display: none;
+    transform: translate(-50%, -50%);
+}
+
+.ImageCircle2{
+    content: '';
+    position: absolute;
+    top:70%;
+    left: 95%;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 100%;
+    transform: translate(-50%, -50%);
+    border-top: inherit;
+    border-top-color: transparent;
+}
+.ImageCircle4{
+    content: '';
+    position: absolute;
+    top:70%;
+    left: 95%;
+    width: 100px;
+    height: 100px;
+	display: none;
+    background-color: black;
+    border-radius: 100%;
+    transform: translate(-50%, -50%);
+    border-top: inherit;
+    border-top-color: transparent;
+}
+
+
+.Message1{width:70%; height:200px; border:2px solid lightgray; position:relative; background-color: white}
+
+
+
+
+.Message1:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 100%;
+    width: 0;
+    height: 0;
+    border-color: transparent #dedede transparent transparent;
+    border-style: solid;
+    border-width: 25px;  
+}
+
+.Message1:after {
+content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 100%;
+    width: 0;
+    height: 0;
+    border-color: transparent #fff transparent transparent;
+    border-style: solid;
+    border-width: 22px;
+}
+
+
+
+.Message2{width:70%; height:200px; border:2px solid lightgray; position:relative; margin-top:50px; background-color: white}
+
+.Message2:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 100%;
+    width: 0;
+    height: 0;
+    border-color: transparent #dedede transparent transparent;
+    border-style: solid;
+    border-width: 25px;  
+}
+
+.Message2:after {
+content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 100%;
+    width: 0;
+    height: 0;
+    border-color: transparent #fff transparent transparent;
+    border-style: solid;
+    border-width: 22px;
+}
+
+
+.WhatWeDoContainer{
+	width:70%; margin-top:40px
+}
+
+.AboutusImages{
+	margin-top:100px;
+}
+.image1{
+	height:400px; margin-left:-20px
+}
+.image2{
+	height:400px; margin-left:20px
+}
+
+.CompStatsContainer{margin-top:50px; width:70%}
+
+.ContainerBlog{width:80%;}
+
+.BlogImage{width:50%}
+
+.BlogCardDiv{
+	padding-top:20px;margin-bottom:20px; text-align:center; background-color:aliceblue; height:150px
+}
+.ContactDetailDiv{margin-top: 50px; margin-bottom:-150px;}
+.StartUpCont{width:70%}
+.StartupDiv{background-image:url(laravel-development-company-usa-india-webicules.jpg); background-repeat:no-repeat; height:400px; width:100%; margin-top:50px; margin-bottom:-200px}
+.StartUpText{text-align:center; margin-top:50px; margin-bottom:50px; color:white}
+.CompanyStatsText{color:#ececec; font-size:80px; margin-top:-40px}
+
+@media only screen and (max-width: 800px) {
+	
+	.WhatWeDoContainer{
+	width:100%; margin-top:40px;
+}
+.Cards{width:40%}
+.OurServices{
+	margin-top:30px;
+}
+
+.AboutUsCircle .Square{margin-top:0px}
+
+.DigitalMarImg{
+	margin-bottom:50px
+}
+.ProjectsDiv{
+	
+}
+
+/*.Project{background-color:black; width:100%; margin:5px}	*/
+
+
+}
+
+
+@media only screen and (max-width: 1200px) {
+	
+	.WhatWeDoContainer{
+	margin-top:40px;
+}
+.Cards{width:40%}
+.AboutusImages{
+	margin-top:20px;
+	}
+
+.OurServices{
+	margin-top:30px;
+}
+.AboutUsCircle .Square{margin-top:100px}
+
+.DigitalMarImg{
+	margin-bottom:50px
+}
+.BlogImage{width:20%}
+.ContainerBlog{width:100%;}
+/*.Project{background-color:black; width:100%; margin:5px}	*/
+.BlogCard{width:100%}
+
+
+.BlogCardDiv{
+	height:180px
+}
+.DetailsCard{width:100%}
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .Project {width:100%}
+	.AboutUsCircle{width:450px; height:450px;}
+	.AboutUsCircle .Square{margin-top:100px}
+	.OtherDetailsContainer{width:100%;}
+	.OtherDetails{width:100%}
+	.DetailsCard{height:auto; width:100%;}
+	.BlogCard{margin-bottom:40px; }
+	.StartUpCont{width:100%}
+	.CompStatsContainer{margin-top:50px; width:100%}
+	.CompanyStats{width:25%; float:left}
+	.CompanyStatsText{font-size:40px; margin-top:-40px}
+	.ClientSayAboutUsCircle{width:450px; height:450px;}
+	
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .Project { width:100%}
+	.OtherDetailsContainer{width:100%; }
+	.OtherDetails{width:40%}
+	.CompStatsContainer{margin-top:50px; width:100%}
+	.CompanyStats{width:25%; float:left}
+	.CompanyStatsText{font-size:20px; margin-top:-40px}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .Project {width:100%}
+	.OtherDetailsContainer{width:100%;}
+	.OtherDetails{width:50%}
+	.CompanyStatsText{font-size:80px; margin-top:-40px}
+	
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .Project { width:30%}
+	.OtherDetailsContainer{width:100%; }
+	.OtherDetails{width:50%}
+	.CompanyStatsText{font-size:80px; margin-top:-40px}
+	
+}
+	
+ 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .Project {background: black;width:24%}
+	.OtherDetails{height:auto; width:30%; margin:10px; text-align:left;}
+
+.OtherDetailsContainer{width:80%; margin-top:200px}
+	.CompStatsContainer{margin-top:50px; width:70%}
+	.CompanyStatsText{font-size:80px; margin-top:-40px}
+	
+}
+
+
+
+
+
+
